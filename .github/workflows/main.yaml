@@ -2,7 +2,7 @@ name: Build Docker image and push to k8s
 
 on:
   push:
-    branches: ['master']
+    branches: ['main']
 
 env:
   REGISTRY: ghcr.io
